@@ -18,6 +18,9 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+  basename: "/crm",
+}
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

@@ -10,7 +10,7 @@ export const App = () => {
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<Home />} />
-          <Route path="customers" element={<DataSection />} />
+          <Route path="/customers" element={<DataSection />} />
         </Route>
       </Routes>
     </ContainerStyled>
