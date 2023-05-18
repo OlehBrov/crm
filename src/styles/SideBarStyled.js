@@ -1,9 +1,10 @@
+import { useMediaQuery } from "react-responsive";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import arrow from '../images/chevron-right.svg'
+
 
 export const SideBarContainer = styled.aside`
-width: 306px;
+
 display: flex;
 background: #FFFFFF;
 box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
@@ -15,7 +16,7 @@ padding: 36px 28px;
 export const MainNav = styled.nav`
 display: flex;
 flex-direction: column;
-padding: 0 11px;
+
 gap: 18px;
 `
 export const LinkStyled = styled(NavLink)`
